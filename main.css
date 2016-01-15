@@ -78,3 +78,34 @@ body {
 .searchbar-bar input:first-child {
 	width: 595px; /*not fluid, just looks correct*/
 }
+
+.omnibox {
+	border: 1px solid black;
+	height: 24px;
+	width: 63%;
+	border-radius: 7px;
+}
+
+.omnibox li {
+	background-color: #6699ff;
+	margin: 2px 2px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+.omnibox input {
+	border: none;
+}
+
+.omnibox * {
+	display: inline-block;
+	padding: 0 5px;
+	color: white;
+}
+
+.omnibox a {
+	background-color: blue;
+	color: #a6a6a6;
+	border-radius: 5px;
+	text-decoration: none;
+}
