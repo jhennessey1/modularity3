@@ -52,19 +52,19 @@
                 <label>Email</label>
                 <input type="email" name="email">
               </div>
-              <div class="input">
+              <div class="input two-input">
                 <label>City</label>
-                <input class="2-input" type="text" name="city">
+                <input id="city" type="text" name="city">
                 <label>State</label>
-                <input class="2-input" type="text" name="state">
+                <input id="state" type="text" name="state">
               </div>
               <div>
-                <div>
+                <div class="checkbox">
                   <label><input type="checkbox">Sign up for the newsletter</label>
                 </div>
               </div>
               <div>
-                <div>
+                <div class="input">
                   <input type="submit">
                 </div>
               </div>
@@ -80,18 +80,18 @@
           <div class="instruction-answer">
             <!-- Edit here -->
             <form class="submission">
-              <div class="input">
+              <div class="input validate">
                 <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
+                <input id="valid" type="text" name="firstName" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
-              <div class="input">
+              <div class="input validate">
                 <label>Last Name</label>
                 <input type="text" name="lastName">
               </div>
-              <div class="input">
+              <div class="input validate">
                 <label>Email</label>
-                <input type="email" name="email" value="myemail@something">
+                <input id="invalid" type="email" name="email" value="myemail@something">
                 <span class="is-invalid">Please enter a valid value.</span>
               </div>
             </form>
@@ -105,12 +105,12 @@
           <p class="instruction-text">The textbox should be fluid, i.e. stretch to fit the available space when the window changes size. <em>Hint: Look up 3-column layouts with fluid center.</em></p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
+            <div class="search-bar">
               <label>Find groups</label>
-              <div>
+              <div class="searchbar-bar">
                 <input placeholder="Find Groups by Title or Description">
               </div>
-              <input type="submit">
+              <input class="submit-btn" type="submit">
             </div>
             <!-- End editable area -->
           </div>

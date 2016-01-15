@@ -16,12 +16,65 @@ body {
 	margin: 5px;
 }
 
-input {
+.input input {
 	border: 1px solid #999999;
-	border-radius: 3px;
+	border-radius: 5px;
 	width: 300px;
+	height: 30px;
 }
 
-.2-input {
-	width: 20px;
+#state {
+	width: 40px;
+}
+
+#city {
+	width: 194px;
+}
+
+.checkbox {
+	text-align: center;
+	padding-left: 132px;
+}
+
+.is-valid {
+	color: #66ff33;
+	position: absolute;
+}
+
+.is-invalid {
+	position: absolute;
+	font-size: 13px;
+	color: red;
+}
+
+#valid {
+	border: 3px solid #66ff33;
+}
+
+#invalid {
+	border: 3px solid red;
+}
+
+.search-bar {
+	background-color: #999999;
+	padding: 3px;
+	border-radius: 10px;
+	height: 45px;
+}
+
+.search-bar * {
+	display: inline-block;
+	line-height: 30px;
+}
+
+.submit-btn {
+	float: right;
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+}
+
+.searchbar-bar input:first-child {
+	width: 595px; /*not fluid, just looks correct*/
 }
